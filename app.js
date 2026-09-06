@@ -1,8 +1,9 @@
+// import React from "react";
+// import ReactDOM from "react-dom/client";
 
-        
+// // React element using JSX
+// const element = <h1>Hello</h1>;
 
-const parent=React.createElement("div",{id:"parent"},
-        React.createElement("div",{id:"child"},
-                React.createElement("h1",{},"i am h1 tag")));
-const root=ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+// // React 18+ root rendering
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(element);
